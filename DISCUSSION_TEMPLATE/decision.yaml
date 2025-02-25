@@ -1,0 +1,81 @@
+name: Decision
+description: Template for team decision discussions
+title: '[DECISION]'
+body:
+  - type: markdown
+    attributes:
+      value: '### Decision'
+
+  - type: input
+    id: question
+    attributes:
+      label: Question
+
+  - type: markdown
+    attributes:
+      value: '### Background'
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Describe the problem we're trying to solve and why we need to make this decision now.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: '### Alternatives'
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: List some options being considered
+      placeholder: "Option 1: ...\nOption 2: ...\nOption 3: ..."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: '### Alternatives'
+
+  - type: textarea
+    id: links
+    attributes:
+      label: References
+      description: Add any relevant links or references
+      placeholder: "- Related issue: #123\n- Documentation: [link](url)"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: '### Decider'
+
+  - type: dropdown
+    id: decider
+    attributes:
+      label: Decider
+      description: Who will make the final decision?
+      options:
+        - Aasit
+        - Brent
+        - Fred
+        - Herb
+        - Leslie
+        - Nathan
+        - Reid
+        - Ritika
+        - Shane
+    validations:
+      required: true
+
+  - type: input
+    id: decision-date
+    attributes:
+      label: Deadline
+      description: When does this decision need to be made by?
+      placeholder: 'YYYY-MM-DD'
+    validations:
+      required: true
