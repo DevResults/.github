@@ -52,7 +52,7 @@ body:
     id: decision-date
     attributes:
       label: Deadline
-      description: When does this decision need to be made by?
-      placeholder: 'YYYY-MM-DD'
+      description: Everyone should respond to the discussion by this date in order to have their input taken into consideration.
+      placeholder: 'Monday, Feb 25'
     validations:
       required: true
