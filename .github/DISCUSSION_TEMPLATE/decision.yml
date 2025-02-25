@@ -1,5 +1,6 @@
 body:
   - type: markdown
+    attributes:
       value: 'Please state the decision to be made in the title, phrased as a question.'
 
   - type: textarea
@@ -31,10 +32,6 @@ body:
       placeholder: "- Related issue: #123\n- Documentation: [link](url)"
     validations:
       required: false
-
-  - type: markdown
-    attributes:
-      value: '### Decider'
 
   - type: dropdown
     id: decider
