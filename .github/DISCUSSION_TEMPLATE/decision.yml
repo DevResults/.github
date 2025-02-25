@@ -1,5 +1,3 @@
-name: Decision
-description: Template for team decision discussions
 title: '[DECISION]'
 body:
   - type: markdown
