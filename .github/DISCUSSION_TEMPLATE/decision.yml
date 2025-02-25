@@ -20,10 +20,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: '### Alternatives'
-
   - type: textarea
     id: links
     attributes:
@@ -39,6 +35,7 @@ body:
       label: Decider
       description: Who will make the final decision?
       options:
+        - Select...
         - Aasit
         - Brent
         - Fred
