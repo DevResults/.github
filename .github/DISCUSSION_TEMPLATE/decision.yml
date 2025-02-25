@@ -25,7 +25,7 @@ body:
     attributes:
       label: References
       description: Add any relevant links or references
-      placeholder: "- Related discussion: #123
+      placeholder: '- Related discussion: #123'
     validations:
       required: false
 
