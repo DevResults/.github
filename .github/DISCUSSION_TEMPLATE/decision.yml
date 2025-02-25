@@ -1,18 +1,4 @@
-title: '[DECISION]'
 body:
-  - type: markdown
-    attributes:
-      value: '### Decision'
-
-  - type: input
-    id: question
-    attributes:
-      label: Question
-
-  - type: markdown
-    attributes:
-      value: '### Background'
-
   - type: textarea
     id: context
     attributes:
@@ -20,10 +6,6 @@ body:
       description: Describe the problem we're trying to solve and why we need to make this decision now.
     validations:
       required: false
-
-  - type: markdown
-    attributes:
-      value: '### Alternatives'
 
   - type: textarea
     id: options
